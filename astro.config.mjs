@@ -8,7 +8,7 @@ export default defineConfig({
     base: '/notes/',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'My Notes',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
