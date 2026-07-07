@@ -1,0 +1,36 @@
+---
+// src/components/CustomSocials.astro
+import Default from '@astrojs/starlight/components/SocialIcons.astro';
+---
+
+<div class="header-socials-wrapper">
+  <Default {...Astro.props} />
+
+  <a href="https://heyshikhar.tech" class="main-site-link">
+    check out my website ↗
+  </a>
+</div>
+
+<style>
+  .header-socials-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .main-site-link {
+    font-size: var(--sl-text-sm);
+    font-weight: 600;
+    color: var(--sl-color-gray-3);
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    transition: color 0.2s ease, background-color 0.2s ease;
+  }
+
+  /* Hover effect matching Starlight's interactive states */
+  .main-site-link:hover {
+    color: var(--sl-color-text-invert);
+    background-color: var(--sl-color-text-accent);
+  }
+</style>

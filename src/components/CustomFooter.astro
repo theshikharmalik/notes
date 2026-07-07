@@ -1,0 +1,34 @@
+---
+// src/components/CustomFooter.astro
+// You can access page data here if you need it:
+// const { entry } = Astro.locals.starlightRoute;
+---
+
+<footer class="my-custom-footer">
+  <hr />
+  <div class="footer-content">
+    <p>made by shikhar シ</p>
+  </div>
+</footer>
+
+<style>
+  .my-custom-footer {
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  hr {
+    border: 0;
+    border-top: 1px solid var(--sl-color-hairline);
+    margin-bottom: 1.5rem;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    color: var(--sl-color-gray-3);
+    font-size: var(--sl-text-sm);
+    font-family: 'Lato', sans-serif;
+  }
+</style>

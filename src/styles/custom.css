@@ -1,0 +1,35 @@
+/* src/styles/custom.css */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Lato:wght@400;700&family=Poppins:wght@600;800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/junicode');
+
+
+/* .sl-markdown-content {
+  font-family: 'Lato', sans-serif !important;
+} */
+
+/* .page-footer:has(a[rel="prev"]),
+.page-footer:has(a[rel="next"]),
+footer .pagination-links {
+  display: none !important;
+} */
+
+h1#_top, 
+.page-title h1,
+header h1 {
+  font-family: 'Lato', sans-serif !important;
+}
+
+.sl-markdown-content h1,
+.sl-markdown-content h2,
+.sl-markdown-content h3,
+.sl-markdown-content h4,
+.sl-markdown-content h5,
+.sl-markdown-content h6 {
+  font-family: 'Lato', sans-serif !important;
+}
+
+.sl-markdown-content code,
+.sl-markdown-content pre,
+.expressive-code pre {
+  font-family: 'Fira Code', monospace !important;
+}
